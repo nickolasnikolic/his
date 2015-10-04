@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $.getJSON('./api/amazon/search/test')
+    $.getJSON('./api/amazon/search/mens%20clothing')
         .success(function(data){
             console.log(data);
         })
