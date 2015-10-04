@@ -1,0 +1,18 @@
+$(document).ready(function(){
+    $.getJSON('../api/search/test')
+        .success(function(data){
+            console.log(data);
+        })
+        .error(function(error){
+            console.log('error:');
+            console.log(error);
+        });
+    $.getJSON('../api/lookup/B00KOIBN9A')
+        .success(function(data){
+            console.log(data);
+        })
+        .error(function(error){
+            console.log('error:');
+            console.log(error);
+        });
+});
