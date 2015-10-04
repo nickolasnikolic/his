@@ -43,19 +43,19 @@ header ul ul li:hover{
 
 .main-deals{
     height: 44em;
-    background-image: url(../images/stock/black-and-white-man-person-eyes.jpg);
+    background-image: url(../images/black-and-white-man-person-eyes.jpg);
     background-size: cover;
     overflow: hidden;
 }
 .secondary-deals{
     height: 28em;
-    background-image: url(../images/stock/bow-tie-fashion-man-person.jpg);
+    background-image: url(../images/bow-tie-fashion-man-person.jpg);
     background-size: cover;
     overflow: hidden;
 }
 .third-order-deals{
     height: 16em;
-    background-image: url(../images/stock/landscape-nature-man-person.jpeg);
+    background-image: url(../images/landscape-nature-man-person.jpeg);
     background-size: cover;
     background-position-y: -130px;
     overflow: hidden;
@@ -63,14 +63,14 @@ header ul ul li:hover{
 
 .fourth-order-deals{
     height: 38em;
-    background-image: url(../images/stock/man-person-people-emotions.jpg);
+    background-image: url(../images/man-person-people-emotions.jpg);
     background-size: cover;
     background-position-x: -150px;
     overflow: hidden;
 }
 .last-but-not-least{
     height: 38em;
-    background-image: url(../images/stock/fashion-men-vintage-colorful.jpg);
+    background-image: url(../images/fashion-men-vintage-colorful.jpg);
     background-size: cover;
     overflow: hidden;
 }

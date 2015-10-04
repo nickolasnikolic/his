@@ -221,17 +221,6 @@
         </div>
     </section>
     <div class="clearfix"></div>
-    <div class="row">
-        <section class="col-sm-12 col-md-4">
-            <iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=blindworm03-20&o=1&p=12&l=ur1&category=fanshop&banner=196ZHAJ5WWZ3DXSMX3R2&f=ifr&lc=pf4&linkID=ZML4L7ZKRWD5IMLW" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
-        </section>
-        <section class="col-sm-12 col-md-4">
-            <iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=blindworm03-20&o=1&p=12&l=ur1&category=audible&banner=1KNMQ6Z91A8KDJ552HG2&f=ifr&lc=pf4&linkID=J42Q67JDSNTU4T7S" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
-        </section>
-        <section class="col-sm-12 col-md-4">
-            <iframe src="http://rcm-na.amazon-adsystem.com/e/cm?t=blindworm03-20&o=1&p=12&l=ur1&category=primemain&banner=1MDTME9E9G651CJTDA82&f=ifr&lc=pf4&linkID=UP6XQVYXX2WLYHNF" width="300" height="250" scrolling="no" border="0" marginwidth="0" style="border:none;" frameborder="0"></iframe>
-        </section>
-    </div>
     <section class="row col-sm-12 col-md-12">
         <h2>&copy;his.place</h2>
     </section>
