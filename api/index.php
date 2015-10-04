@@ -43,6 +43,8 @@ $app->get('/amazon/lookup/:asin', function( $asin ) {
       ->setSecretKey(getenv('AMAZON_SECRET'))
       ->setAssociateTag(getenv('AMAZON_ASSOCIATE_TAG'));
 
+    $apaiIo = new ApaiIO($conf);
+
   $lookup = new Lookup();
   $lookup->setItemId($asin);
   $lookup->setResponseGroup(array('Large')); // More detailed information
