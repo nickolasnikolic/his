@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $.getJSON('../api/search/test')
+    $.getJSON('api/search/test')
         .success(function(data){
             console.log(data);
         })
@@ -7,7 +7,7 @@ $(document).ready(function(){
             console.log('error:');
             console.log(error);
         });
-    $.getJSON('../api/lookup/B00KOIBN9A')
+    $.getJSON('api/lookup/B00KOIBN9A')
         .success(function(data){
             console.log(data);
         })
