@@ -28,7 +28,7 @@ $app->get('/amazon/search/:keywords', function( $keywords ){
   $apaiIo = new ApaiIO($conf);
   $response = $apaiIo->runOperation($search);
 
-  echo json_encode($response);
+  echo json_encode(simplexml_load_string($response));
 
 });
 
@@ -51,7 +51,7 @@ $app->get('/amazon/lookup/:asin', function( $asin ) {
 
   $response = $apaiIo->runOperation($lookup);
 
-  echo json_encode($response);
+  echo json_encode(simplexml_load_string($response));
 
 });
 
