@@ -32,7 +32,7 @@ $(document).ready(function(){
             console.log('error:');
             console.log(error);
         });
-    $.getJSON('./api/amazon/node/B013UTM6HM')
+    $.getJSON('./api/amazon/similar/B013UTM6HM')
         .success(function(data){
             console.log(data);
         })
