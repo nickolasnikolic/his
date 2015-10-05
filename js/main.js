@@ -6,6 +6,7 @@ $(document).ready(function(){
     _.each(requestList,function(asin){
         $.getJSON('./api/amazon/lookup/' + asin)
             .success(function (data) {
+                console.log(data);
                 responseList.push(data.Items.Item);
             })
             .error(function (error) {
