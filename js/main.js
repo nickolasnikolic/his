@@ -4,7 +4,6 @@ $(document).ready(function(){
     var responseList = [];
 
     _.each(requestList,function(){
-
         $.getJSON('./api/amazon/lookup/' + asin)
             .success(function (data) {
                 responseList.push(data.Items.Item);
