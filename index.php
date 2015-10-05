@@ -147,7 +147,7 @@
 <section class="container sale-items">
     <a href="http://www.amazon.com/gp/product/B00SATGXU4/ref=as_li_qf_br_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00SATGXU4&linkCode=as2&tag=blindworm03-20&linkId=I2JGHIDNQNMVXORK">
     <article class="col-sm-6 col-md-4 panel">
-        <h2>7 For All Mankind Men's Slimmy Slim Straight-Leg Jean In Stoneham </h2>
+        <h2>item</h2>
         <description>
             item item lorem ipsum
         </description>
