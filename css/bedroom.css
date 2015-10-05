@@ -1,6 +1,10 @@
 .main-deals{
     height: 28em;
-    background-image: url(../images/man-person-people-emotions.jpg);
+    background-image: url(../images/man-person-cute-young.jpg);
     background-size: cover;
     overflow: hidden;
+}
+
+.secondary-deals{
+    background-image: url(../images/city-man-person-skyline.jpg);
 }
