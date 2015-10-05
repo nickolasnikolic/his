@@ -96,8 +96,10 @@ header ul ul li:hover{
 
 .sale-items img{
     background-color: gray;
-    /*height: 10em;
-    width: 10em;*/
+}
+
+.sale-items h2{
+    margin-top: 0;
 }
 
 .small-img{

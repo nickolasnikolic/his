@@ -9,13 +9,13 @@ $(document).ready(function(){
                 console.log(data);
                 responseList.push(data.Items.Item);
 
-                var theSaleDisplay = $('section.sale-items article').eq(index);
+                var theSaleDisplay = $('.sale-items article').eq(index);
 
                 theSaleDisplay.find('h2').text(data.Items.Item.ItemAttributes.Title);
                 theSaleDisplay.find('description').text(data.Items.Item.ItemAttributes.Title);
                 theSaleDisplay.find('img').attr( 'src', data.Items.Item.LargeImage.URL );
 
-                $('section.sale-items article').eq(index).click(function(){
+                $('.sale-items article').eq(index).click(function(){
                     window.location = data.Items.Item.DetailPageURL;
                 });
             })
