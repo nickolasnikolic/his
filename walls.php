@@ -24,7 +24,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/outside.css" />
+    <link rel="stylesheet" href="css/walls.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
