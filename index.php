@@ -75,7 +75,7 @@
         </a>
     </article>
     <article class="col-sm-12 col-md-5 third-order-deals">
-        <a href="outdoors.php">
+        <a href="outside.php">
             <div class="deal-text">
                 <h2>outdoors</h2>
                 <p>let nothing stop you</p>

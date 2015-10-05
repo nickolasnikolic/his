@@ -24,11 +24,12 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/bedroom.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/underscore-min.js"></script>
-    <script src="js/home.js"></script>
+    <script src="js/bedroom.js"></script>
 </head>
 <body>
 <header>
@@ -58,46 +59,8 @@
 </header>
 
 <section class="banner">
-    <article class="col-sm-12 col-md-7 main-deals">
-        <a href="inside.php">
-            <div class="deal-text">
-                <h2>inner self</h2>
-                <p>Spend some time focusing on your inner decor.</p>
-            </div>
-        </a>
-    </article>
-    <article class="col-sm-12 col-md-5 secondary-deals">
-        <a href="clothing.php">
-            <div class="deal-text">
-                <h2>clothing</h2>
-                <p>clothe yourself boy!</p>
-            </div>
-        </a>
-    </article>
-    <article class="col-sm-12 col-md-5 third-order-deals">
-        <a href="outdoors.php">
-            <div class="deal-text">
-                <h2>outdoors</h2>
-                <p>let nothing stop you</p>
-            </div>
-        </a>
-    </article>
-    <article class="col-sm-12 col-md-5 fourth-order-deals">
-        <a href="garage.php">
-            <div class="deal-text">
-                <h2>garage</h2>
-                <p>not afraid to get your hands dirty?</p>
-            </div>
-        </a>
-    </article>
-    <article class="col-sm-12 col-md-7 last-but-not-least">
-        <a href="walls.php">
-            <div class="deal-text">
-                <h2>walls</h2>
-                <p>art and posters worth a double-take</p>
-            </div>
-        </a>
-    </article>
+    <article class="col-sm-12 col-md-7 main-deals"></article>
+    <article class="col-sm-12 col-md-5 secondary-deals"></article>
 </section>
 
 <div class="clearfix"></div>
@@ -146,7 +109,27 @@
             item item lorem ipsum
         </description>
     </article>
-
+    <article class="col-sm-6 col-md-4 panel">
+        <img src="" class="pull-left img-rounded small-img" />
+        <h2>item</h2>
+        <description>
+            item item lorem ipsum
+        </description>
+    </article>
+    <article class="col-sm-6 col-md-4 panel">
+        <img src="" class="pull-left img-rounded small-img" />
+        <h2>item</h2>
+        <description>
+            item item lorem ipsum
+        </description>
+    </article>
+    <article class="col-sm-6 col-md-4 panel">
+        <img src="" class="pull-left img-rounded small-img" />
+        <h2>item</h2>
+        <description>
+            item item lorem ipsum
+        </description>
+    </article>
 </section>
 
 <footer class="panel">
