@@ -88,6 +88,7 @@
             item item lorem ipsum
         </description>
     </article>
+    <div class="clearfix"></div>
     <article class="col-sm-6 col-md-4 panel">
         <img src="" class="pull-left img-rounded small-img" />
         <h2>item</h2>
@@ -109,6 +110,7 @@
             item item lorem ipsum
         </description>
     </article>
+    <div class="clearfix"></div>
     <article class="col-sm-6 col-md-4 panel">
         <img src="" class="pull-left img-rounded small-img" />
         <h2>item</h2>

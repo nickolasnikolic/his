@@ -82,6 +82,7 @@
             </div>
         </a>
     </article>
+
     <article class="col-sm-12 col-md-5 fourth-order-deals">
         <a href="garage.php">
             <div class="deal-text">
@@ -125,6 +126,7 @@
             item item lorem ipsum
         </description>
     </article>
+    <div class="clearfix"></div>
     <article class="col-sm-6 col-md-4 panel">
         <img src="" class="pull-left img-rounded small-img" />
         <h2>item</h2>
