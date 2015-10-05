@@ -23,12 +23,12 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css" />
 
-    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/home.css" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/underscore-min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
 </head>
 <body>
 <header>
@@ -58,35 +58,45 @@
 </header>
 
 <section class="banner">
-    <article class="col-sm-12 col-md-7 main-deals go-to" data-location="inside.php">
-        <div class="deal-text">
-            <h2>inner self</h2>
-            <p>Spend some time focusing on your inner decor.</p>
-        </div>
+    <article class="col-sm-12 col-md-7 main-deals">
+        <a href="inside.php">
+            <div class="deal-text">
+                <h2>inner self</h2>
+                <p>Spend some time focusing on your inner decor.</p>
+            </div>
+        </a>
     </article>
-    <article class="col-sm-12 col-md-5 secondary-deals go-to" data-location="clothing.php">
-        <div class="deal-text">
-            <h2>clothing</h2>
-            <p>clothe yourself boy!</p>
-        </div>
+    <article class="col-sm-12 col-md-5 secondary-deals">
+        <a href="clothing.php">
+            <div class="deal-text">
+                <h2>clothing</h2>
+                <p>clothe yourself boy!</p>
+            </div>
+        </a>
     </article>
-    <article class="col-sm-12 col-md-5 third-order-deals go-to" data-location="outdoors.php">
-        <div class="deal-text">
-            <h2>outdoors</h2>
-            <p>let nothing stop you</p>
-        </div>
+    <article class="col-sm-12 col-md-5 third-order-deals">
+        <a href="outdoors.php">
+            <div class="deal-text">
+                <h2>outdoors</h2>
+                <p>let nothing stop you</p>
+            </div>
+        </a>
     </article>
-    <article class="col-sm-12 col-md-5 fourth-order-deals go-to" data-location="garage.php">
-        <div class="deal-text">
-            <h2>garage</h2>
-            <p>not afraid to get your hands dirty?</p>
-        </div>
+    <article class="col-sm-12 col-md-5 fourth-order-deals">
+        <a href="garage.php">
+            <div class="deal-text">
+                <h2>garage</h2>
+                <p>not afraid to get your hands dirty?</p>
+            </div>
+        </a>
     </article>
-    <article class="col-sm-12 col-md-7 last-but-not-least go-to" data-location="walls.php">
-        <div class="deal-text">
-            <h2>walls</h2>
-            <p>art and posters worth a double-take</p>
-        </div>
+    <article class="col-sm-12 col-md-7 last-but-not-least">
+        <a href="walls.php">
+            <div class="deal-text">
+                <h2>walls</h2>
+                <p>art and posters worth a double-take</p>
+            </div>
+        </a>
     </article>
 </section>
 

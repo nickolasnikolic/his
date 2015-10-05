@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+    //set the items for sale
     var requestList = ['B011JEUHM6','B013P16C8E','B00P03AKC0','B00YA15IH0','B00KACKORM','1612194443'];
     var responseList = [];
 
@@ -24,5 +25,4 @@ $(document).ready(function(){
                 console.log(error);
             });
     });
-
 });
