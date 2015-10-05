@@ -1,43 +1,20 @@
 $(document).ready(function(){
 
-    var requestList = [
-        'B00KOIBN9A',
-        '11307731011'
+    var requestList = ['B011JEUHM6','B013P16C8E','B00P03AKC0','B00YA15IH0','B00KACKORM','1612194443'];
+    var responseList = [];
 
-    ];
+    _.each(requestList,function(){
 
-    $.getJSON('./api/amazon/lookup/B013UTM6HM')
-        .success(function(data){
-            console.log(data);
-        })
-        .error(function(error){
-            console.log('error:');
-            console.log(error);
-        });
+        $.getJSON('./api/amazon/lookup/' + asin)
+            .success(function (data) {
+                responseList.push(data.Items.Item);
+            })
+            .error(function (error) {
+                console.log('error:');
+                console.log(error);
+            });
+    });
 
-    $.getJSON('./api/amazon/node/11307731011')
-        .success(function(data){
-            console.log(data);
-        })
-        .error(function(error){
-            console.log('error:');
-            console.log(error);
-        });
+    console.log(responseList);
 
-    $.getJSON('./api/amazon/similar/11307731011')
-        .success(function(data){
-            console.log(data);
-        })
-        .error(function(error){
-            console.log('error:');
-            console.log(error);
-        });
-    $.getJSON('./api/amazon/similar/B013UTM6HM')
-        .success(function(data){
-            console.log(data);
-        })
-        .error(function(error){
-            console.log('error:');
-            console.log(error);
-        });
 });
