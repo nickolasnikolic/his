@@ -100,6 +100,11 @@ header ul ul li:hover{
     width: 10em;*/
 }
 
+.small-img{
+    height: 7em;
+    width: 7em;
+}
+
 footer{
     margin: 3em 0;
     background-color: rgba(55,55,55,1);

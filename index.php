@@ -151,7 +151,7 @@
         <description>
             item item lorem ipsum
         </description>
-        <img src="" class="pull-left img-rounded" />
+        <img src="" class="pull-left img-rounded small-img" />
     </article>
     </a>
     <article class="col-sm-6 col-md-4 panel">
@@ -159,35 +159,35 @@
         <description>
             item item lorem ipsum
         </description>
-        <img src="" class="pull-left img-rounded" />
+        <img src="" class="pull-left img-rounded small-img" />
     </article>
     <article class="col-sm-6 col-md-4 panel">
         <h2>item</h2>
         <description>
             item item lorem ipsum
         </description>
-        <img src="" class="pull-left img-rounded" />
+        <img src="" class="pull-left img-rounded small-img" />
     </article>
     <article class="col-sm-6 col-md-4 panel">
         <h2>item</h2>
         <description>
             item item lorem ipsum
         </description>
-        <img src="" class="pull-left img-rounded" />
+        <img src="" class="pull-left img-rounded small-img" />
     </article>
     <article class="col-sm-6 col-md-4 panel">
         <h2>item</h2>
         <description>
             item item lorem ipsum
         </description>
-        <img src="" class="pull-left img-rounded" />
+        <img src="" class="pull-left img-rounded small-img" />
     </article>
     <article class="col-sm-6 col-md-4 panel">
         <h2>item</h2>
         <description>
             item item lorem ipsum
         </description>
-        <img src="" class="pull-left img-rounded" />
+        <img src="" class="pull-left img-rounded small-img" />
     </article>
 
 </section>

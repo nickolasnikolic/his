@@ -15,7 +15,7 @@ $(document).ready(function(){
                 theSaleDisplay.find('description').text(data.Items.Item.ItemAttributes.Title);
                 theSaleDisplay.find('img').attr( 'src', data.Items.Item.LargeImage.URL );
 
-                theSaleDisplay.click(function(){
+                $('section.sale-items article').eq(index).click(function(){
                     window.location = data.Items.Item.DetailPageURL;
                 });
             })
