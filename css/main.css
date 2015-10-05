@@ -19,7 +19,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 header ul ul li{
-    font-size: 1.5em !important;
     padding: 1em;
 }
 
@@ -29,6 +28,7 @@ header ul ul li:hover{
 }
 
 .nav-pills>li>a{
+    font-size: 1.5em;
     color: black;
     border-radius: 0px;
 }
