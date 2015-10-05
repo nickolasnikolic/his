@@ -23,6 +23,7 @@ $app->get('/amazon/search/:keywords', function( $keywords ){
       ->setAssociateTag(getenv('AMAZON_ASSOCIATE_TAG'));
 
   $search = new Search();
+    $search->setResponseGroup(array('Large')); // More detailed information
   $search->setKeywords($keywords);
 
   $apaiIo = new ApaiIO($conf);
