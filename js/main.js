@@ -23,4 +23,21 @@ $(document).ready(function(){
             console.log('error:');
             console.log(error);
         });
+
+    $.getJSON('./api/amazon/similar/11307731011')
+        .success(function(data){
+            console.log(data);
+        })
+        .error(function(error){
+            console.log('error:');
+            console.log(error);
+        });
+    $.getJSON('./api/amazon/node/B013UTM6HM')
+        .success(function(data){
+            console.log(data);
+        })
+        .error(function(error){
+            console.log('error:');
+            console.log(error);
+        });
 });

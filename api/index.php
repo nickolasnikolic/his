@@ -7,6 +7,7 @@ use ApaiIO\Configuration\GenericConfiguration;
 use ApaiIO\Operations\Search;
 use ApaiIO\Operations\BrowseNodeLookup;
 use ApaiIO\Operations\Lookup;
+use ApaiIO\Operations\SimilarityLookup;
 
 error_reporting(-1);//tell me stuff
 
@@ -14,7 +15,6 @@ $app = new \Slim\Slim();
 
 $app->get('/amazon/search/:keywords', function( $keywords ){
 
-  //send those books over to amazon
   $conf = new GenericConfiguration();
 
   $conf
@@ -36,7 +36,6 @@ $app->get('/amazon/search/:keywords', function( $keywords ){
 
 $app->get('/amazon/node/:browsenode', function( $browsenode ){
 
-    //send those books over to amazon
     $conf = new GenericConfiguration();
 
     $conf
@@ -58,7 +57,6 @@ $app->get('/amazon/node/:browsenode', function( $browsenode ){
 
 $app->get('/amazon/lookup/:asin', function( $asin ) {
 
-  //send those books over to amazon
   $conf = new GenericConfiguration();
 
   $conf
@@ -76,6 +74,27 @@ $app->get('/amazon/lookup/:asin', function( $asin ) {
   $response = $apaiIo->runOperation($lookup);
 
   echo json_encode(simplexml_load_string($response));
+
+});
+
+
+$app->get('/amazon/similar/:asin', function( $asin ) {
+
+    $conf = new GenericConfiguration();
+
+    $conf
+        ->setCountry('com')
+        ->setAccessKey(getenv('AMAZON_ACCESS'))
+        ->setSecretKey(getenv('AMAZON_SECRET'))
+        ->setAssociateTag(getenv('AMAZON_ASSOCIATE_TAG'));
+
+    $apaiIo = new ApaiIO($conf);
+
+    $similaritylookup = new SimilarityLookup();
+    $similaritylookup->setItemId($asin);
+
+    $response = $apaiIo->runOperation($similaritylookup);
+    echo json_encode(simplexml_load_string($response));
 
 });
 
