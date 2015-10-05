@@ -96,7 +96,7 @@ header ul ul li:hover{
 }
 
 .sale-items article{
-    height: 20em;
+    min-height: 20em;
     cursor: pointer;
 }
 
