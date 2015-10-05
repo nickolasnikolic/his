@@ -137,20 +137,14 @@
 <footer class="panel">
     <section class="col-sm-12 col-md-4">
         <h2>Shopping with us</h2>
-        <nav>
-            <ul>
-                <li><a href="#">Why us?</a></li>
-                <li><a href="#">Amazon.com&trade; fullfilment</a></li>
-            </ul>
-        </nav>
+        <p>We cover the choices for the best, you simply pick your color and go!</p>
+        <h2>Amazon&trade; fulfillment</h2>
+        <p>Your order is handled with efficacy through Amazon's premier fulfillment system.</p>
     </section>
     <section class="col-sm-12 col-md-4">
         <h2>About us</h2>
-        <nav>
-            <ul>
-                <li><a href="#">Our Story</a></li>
-            </ul>
-        </nav>
+        <p>his.place is a curation entity.</p>
+        <p>We sift through the chaff so you can have what's best.</p>
     </section>
     <section class="col-sm-12 col-md-4 newsletter">
         <h2>Newsletter Signup</h2>
