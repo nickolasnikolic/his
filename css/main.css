@@ -105,6 +105,10 @@ header ul ul li:hover{
     margin: 0.75em;
 }
 
+article{
+    padding: 3em;
+}
+
 footer{
     margin: 3em 0;
     background-color: rgba(55,55,55,1);
