@@ -145,49 +145,48 @@
 <div class="clearfix"></div>
 
 <section class="container sale-items">
-    <a href="http://www.amazon.com/gp/product/B00SATGXU4/ref=as_li_qf_br_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00SATGXU4&linkCode=as2&tag=blindworm03-20&linkId=I2JGHIDNQNMVXORK">
     <article class="col-sm-6 col-md-4 panel">
+        <img src="" class="pull-left img-rounded small-img" />
         <h2>item</h2>
         <description>
             item item lorem ipsum
         </description>
-        <img src="" class="pull-left img-rounded small-img" />
     </article>
-    </a>
+
     <article class="col-sm-6 col-md-4 panel">
+        <img src="" class="pull-left img-rounded small-img" />
         <h2>item</h2>
         <description>
             item item lorem ipsum
         </description>
-        <img src="" class="pull-left img-rounded small-img" />
-    </article>
-    <article class="col-sm-6 col-md-4 panel">
-        <h2>item</h2>
-        <description>
-            item item lorem ipsum
-        </description>
-        <img src="" class="pull-left img-rounded small-img" />
     </article>
     <article class="col-sm-6 col-md-4 panel">
+        <img src="" class="pull-left img-rounded small-img" />
         <h2>item</h2>
         <description>
             item item lorem ipsum
         </description>
-        <img src="" class="pull-left img-rounded small-img" />
     </article>
     <article class="col-sm-6 col-md-4 panel">
+        <img src="" class="pull-left img-rounded small-img" />
         <h2>item</h2>
         <description>
             item item lorem ipsum
         </description>
-        <img src="" class="pull-left img-rounded small-img" />
     </article>
     <article class="col-sm-6 col-md-4 panel">
+        <img src="" class="pull-left img-rounded small-img" />
         <h2>item</h2>
         <description>
             item item lorem ipsum
         </description>
+    </article>
+    <article class="col-sm-6 col-md-4 panel">
         <img src="" class="pull-left img-rounded small-img" />
+        <h2>item</h2>
+        <description>
+            item item lorem ipsum
+        </description>
     </article>
 
 </section>
