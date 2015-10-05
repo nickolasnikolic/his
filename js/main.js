@@ -11,8 +11,8 @@ $(document).ready(function(){
 
                 var theSaleDisplay = $('section.sale-items article').eq(index);
 
-                theSaleDisplay.find('h2').innerText(data.Items.Item.ItemAttributes.Title);
-                theSaleDisplay.find('description').innerText(data.Items.Item.ItemAttributes.Title);
+                theSaleDisplay.find('h2').text(data.Items.Item.ItemAttributes.Title);
+                theSaleDisplay.find('description').text(data.Items.Item.ItemAttributes.Title);
                 theSaleDisplay.find('img').src( data.Items.Item.LargeImage.URL );
 
                 theSaleDisplay.click(function(){
