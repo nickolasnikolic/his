@@ -5,6 +5,7 @@ require 'vendor/autoload.php';
 use ApaiIO\ApaiIO;
 use ApaiIO\Configuration\GenericConfiguration;
 use ApaiIO\Operations\Search;
+use ApaiIO\Operations\BrowseNodeLookup;
 use ApaiIO\Operations\Lookup;
 
 error_reporting(-1);//tell me stuff
@@ -30,6 +31,28 @@ $app->get('/amazon/search/:keywords', function( $keywords ){
   $response = $apaiIo->runOperation($search);
 
   echo json_encode(simplexml_load_string($response));
+
+});
+
+$app->get('/amazon/node/:browsenode', function( $browsenode ){
+
+    //send those books over to amazon
+    $conf = new GenericConfiguration();
+
+    $conf
+        ->setCountry('com')
+        ->setAccessKey(getenv('AMAZON_ACCESS'))
+        ->setSecretKey(getenv('AMAZON_SECRET'))
+        ->setAssociateTag(getenv('AMAZON_ASSOCIATE_TAG'));
+
+
+    $browseNodeLookup = new BrowseNodeLookup();
+    $browseNodeLookup->setNodeId($browsenode);
+
+    $apaiIo = new ApaiIO($conf);
+    $response = $apaiIo->runOperation($browseNodeLookup);
+
+    echo json_encode(simplexml_load_string($response));
 
 });
 
