@@ -13,7 +13,7 @@ $(document).ready(function(){
 
                 theSaleDisplay.find('h2').text(data.Items.Item.ItemAttributes.Title);
                 theSaleDisplay.find('description').text(data.Items.Item.ItemAttributes.Title);
-                theSaleDisplay.find('img').src( data.Items.Item.LargeImage.URL );
+                theSaleDisplay.find('img').attr( 'src', data.Items.Item.LargeImage.URL );
 
                 theSaleDisplay.click(function(){
                     window.location = data.Items.Item.DetailPageURL;
