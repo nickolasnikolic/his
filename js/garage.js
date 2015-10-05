@@ -1,7 +1,17 @@
 $(document).ready(function(){
 
     //set the items for sale
-    var requestList = ['B011JEUHM6','B013P16C8E','B00P03AKC0','B00YA15IH0','B00KACKORM','1612194443'];
+    var requestList = [
+        'B00SCKA6XQ',
+        'B001DNRJLG',
+        'B001355MX6',
+        'B00DPH6DM4',
+        'B001HT720O',
+        'B00028CFC6',
+        'B00FAHCDDA',
+        'B00K4UWY2I',
+        'B002S4L4RY'
+    ];
 
     _.each(requestList,function(asin, index, list){
         $.getJSON('./api/amazon/lookup/' + asin)
