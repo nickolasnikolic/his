@@ -90,6 +90,10 @@ header ul ul li:hover{
     background-color: rgba(55, 15, 15, 0.7);
 }
 
+.sale-items{
+    margin-bottom: 5em;
+}
+
 .sale-items article{
     height: 20em;
 }
