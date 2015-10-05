@@ -36,105 +36,53 @@
     <nav class="col-sm-12 col-md-10 pull-right">
         <ul class="nav nav-pills">
             <li>
-                <a class="dropdown-toggle"
-                   data-toggle="dropdown"
-                   href="#" role="button"
-                   aria-haspopup="true"
-                   aria-expanded="false">inside</a>
-                <ul class="dropdown-menu">
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                </ul>
+                <a href="inside.php">inside</a>
             </li>
             <li>
-                <a class="dropdown-toggle"
-                   data-toggle="dropdown"
-                   href="#" role="button"
-                   aria-haspopup="true"
-                   aria-expanded="false">outside</a>
-                <ul class="dropdown-menu">
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                </ul>
+                <a href="outside.php">outside</a>
             </li>
             <li>
-                <a class="dropdown-toggle"
-                   data-toggle="dropdown"
-                   href="#" role="button"
-                   aria-haspopup="true"
-                   aria-expanded="false">bedroom</a>
-                <ul class="dropdown-menu">
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                </ul>
+                <a href="clothing.php">clothing</a>
             </li>
             <li>
-                <a class="dropdown-toggle"
-                   data-toggle="dropdown"
-                   href="#" role="button"
-                   aria-haspopup="true"
-                   aria-expanded="false">walls</a>
-                <ul class="dropdown-menu">
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                </ul>
+                <a href="bedroom.php">bedroom</a>
             </li>
             <li>
-                <a class="dropdown-toggle"
-                   data-toggle="dropdown"
-                   href="#" role="button"
-                   aria-haspopup="true"
-                   aria-expanded="false">garage</a>
-                <ul class="dropdown-menu">
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                    <li>stuff</li>
-                </ul>
+                <a href="walls.php">walls</a>
+            </li>
+            <li>
+                <a href="garage.php">garage</a>
             </li>
         </ul>
     </nav>
 </header>
 
 <section class="banner">
-    <article class="col-sm-12 col-md-7 main-deals">
+    <article class="col-sm-12 col-md-7 main-deals go-to" data-location="inside.php">
         <div class="deal-text">
             <h2>inner self</h2>
             <p>Spend some time focusing on your inner decor.</p>
         </div>
     </article>
-    <article class="col-sm-12 col-md-5 secondary-deals">
+    <article class="col-sm-12 col-md-5 secondary-deals go-to" data-location="clothing.php">
         <div class="deal-text">
             <h2>clothing</h2>
             <p>clothe yourself boy!</p>
         </div>
     </article>
-    <article class="col-sm-12 col-md-5 third-order-deals">
+    <article class="col-sm-12 col-md-5 third-order-deals go-to" data-location="outdoors.php">
         <div class="deal-text">
             <h2>outdoors</h2>
             <p>let nothing stop you</p>
         </div>
     </article>
-    <article class="col-sm-12 col-md-5 fourth-order-deals">
+    <article class="col-sm-12 col-md-5 fourth-order-deals go-to" data-location="garage.php">
         <div class="deal-text">
             <h2>garage</h2>
             <p>not afraid to get your hands dirty?</p>
         </div>
     </article>
-    <article class="col-sm-12 col-md-7 last-but-not-least">
+    <article class="col-sm-12 col-md-7 last-but-not-least go-to" data-location="walls.php">
         <div class="deal-text">
             <h2>walls</h2>
             <p>art and posters worth a double-take</p>
@@ -196,8 +144,8 @@
         <h2>Shopping with us</h2>
         <nav>
             <ul>
-                <li>Why us?</li>
-                <li>Amazon.com&trade; fullfilment</li>
+                <li><a href="#">Why us?</a></li>
+                <li><a href="#">Amazon.com&trade; fullfilment</a></li>
             </ul>
         </nav>
     </section>
@@ -205,19 +153,32 @@
         <h2>About us</h2>
         <nav>
             <ul>
-                <li>Our Story</li>
-                <li>Terms and conditions</li>
-                <li>Privacy</li>
+                <li><a href="#">Our Story</a></li>
             </ul>
         </nav>
     </section>
     <section class="col-sm-12 col-md-4 newsletter">
         <h2>Newsletter Signup</h2>
         <div>
-            <form>
-                <input type="text" name=""/>
-                <button>Submit</button>
-            </form>
+            <!-- Begin MailChimp Signup Form -->
+            <div id="mc_embed_signup">
+                <form action="//github.us10.list-manage.com/subscribe/post?u=e3ccb3f0eeb4aa6341390a026&amp;id=31aa3921f3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+
+                        <div class="mc-field-group">
+                            <label for="mce-EMAIL">Email Address </label>
+                            <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                        </div>
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none"></div>
+                            <div class="response" id="mce-success-response" style="display:none"></div>
+                        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;"><input type="text" name="b_e3ccb3f0eeb4aa6341390a026_31aa3921f3" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                    </div>
+                </form>
+            </div>
+            <!--End mc_embed_signup-->
         </div>
     </section>
     <div class="clearfix"></div>

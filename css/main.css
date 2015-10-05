@@ -19,6 +19,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 header ul ul li{
+    font-size: 1.5em;
     padding: 1em;
 }
 
@@ -96,6 +97,10 @@ header ul ul li:hover{
 
 .sale-items article{
     height: 20em;
+    cursor: pointer;
+}
+
+.go-to{
     cursor: pointer;
 }
 
