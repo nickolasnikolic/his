@@ -55,7 +55,7 @@ var artApp = angular.module('artApp', ['ui.router', 'ngSanitize', 'angular.filte
       .state('garage', {
         url: '/garage',
         templateUrl: 'templates/garage.html',
-        controller: 'garageController',
+        controller: 'GarageController',
         onEnter: function($state) {
           console.log('garage');
         }
